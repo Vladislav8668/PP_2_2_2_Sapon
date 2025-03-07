@@ -1,8 +1,5 @@
 package web.model;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class Car {
 
     private String brand;
@@ -49,15 +46,6 @@ public class Car {
                 ", color='" + color + '\'' +
                 ", horsePower=" + horsePower +
                 '}';
-    }
-
-    public static List<Car> makeListOfFiveCars() {
-        Car car1 = new Car("BMW", "red", 180);
-        Car car2 = new Car("VAZ", "blue", 110);
-        Car car3 = new Car("Mercedes", "black", 215);
-        Car car4 = new Car("Toyota", "yellow", 143);
-        Car car5 = new Car("Nissan", "green", 121);
-        return Arrays.asList(car1, car2, car3, car4, car5);
     }
 
 }
